@@ -24,7 +24,7 @@ const Work = () => {
                             <h3>{i.title}</h3>
                             <p>{i.description}</p>
                             <a href={i.url} target={'blank'}>
-                                view Demo
+                                View Demo
                            </a>
                         </aside>
                     </div>
