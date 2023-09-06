@@ -1,0 +1,56 @@
+ #testimonial{
+    width:100%;
+    padding: 5px;
+    color: rgb(52, 43, 43);
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    >h2{
+        font: 700 2.5rem $text2; 
+        width: fit-content;
+        margin-bottom: 3rem;
+        border-bottom: 2px solid orangered;
+    }
+    >section{
+        
+        width: 80%;
+        height: 40rem;
+        margin: auto;
+        padding: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(218, 221, 222);;
+        gap: 20px;
+        >article{
+            height: 100%;
+            width: 30%;
+            background-color: rgb(252, 254, 255);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            img{
+                top: 0%;
+                position: absolute;
+                width: 100%;
+                height: 100px;
+                object-fit: contain;
+                border-radius: 50%;
+                transform: translateY(-50%);
+            }
+            >p{
+                letter-spacing: 2px;
+                margin: 20px 0;
+                font-size: 0.9rem;
+                line-height: 160%;
+                text-align: center;
+                overflow: hidden;
+            }
+        }
+    }
+ }
