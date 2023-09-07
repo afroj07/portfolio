@@ -18,18 +18,21 @@ const Contact = () => {
        
         try {
          
-         await addDoc(collection(db,'contacts'), 
+         await addDoc(collection(db, 'contacts'), 
          {
           name, 
           email , 
           message,
        });
+       setName("")
+       setEmail("")
+       setMeassage("")
        toast.success('Meassage sent successfully');
        setDisableBtn(false);
         } catch (error) {
          toast.error('Error');
          console.log(error);
-         setDisableBtn(f)
+      
    
         }
    }
