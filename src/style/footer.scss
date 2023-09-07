@@ -1,0 +1,60 @@
+footer{
+    min-height: 100px;
+    background-color: rgb(53, 75, 88);
+    color: rgb(189, 194, 217);
+  padding: 1rem 0;
+  padding-left: 2rem;
+  display: grid;
+  grid-template-columns: 10fr  3fr 1fr;
+  align-items: center;
+  justify-content: center;
+text-align: center;
+>div{
+width: 100%;
+border-left: 2px solid rgb(141, 228, 138);
+border-right: 2px solid rgb(141, 228, 138);;
+>img{
+    width: 110px;
+    height: 110px;
+object-fit: fill;
+    background-color: azure;
+    border-radius: 50%;
+
+}
+>h2{
+    margin: 1rem;
+}
+>p{
+    font: 400 1.2 rem $text2;
+}
+}
+>aside{
+    >article{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     svg{
+        font-size: 2rem;
+        color: rgb(141, 228, 138);;
+        &:hover{
+            color: $color3;
+        }
+     }
+    }
+}
+>a{
+    width: 50PX;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    animation: upupdowndown 1s infinite linear alternate;
+    svg{
+        font-size: 2rem;
+        color: rgb(53, 75, 88);
+        
+    }
+}
+}

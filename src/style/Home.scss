@@ -98,12 +98,16 @@ padding-top: 5px;
         position: absolute;
         border-radius: 50%;
         z-index: -1;
-        background-color: $color3;
+        border: 1px solid rgb(51, 168, 176);;
+        background-color: rgb(61, 53, 80);
     }
 
     >img{
-        width: 40vmax;
-        height: 40vmax;
+        width: 35vmax;
+        height: 35vmax;
+        border: 1px solid rgb(97, 97, 97);
+        border-radius: 50%;
+        background-color: rgb(69, 68, 79);
         object-fit: contain;
     }
 }

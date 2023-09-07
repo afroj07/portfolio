@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import img from '../assets/msg.jpg';
+import  toast from 'react-hot-toast';
+import
 
 const Contact = () => {
 
@@ -9,6 +11,7 @@ const Contact = () => {
    const submitHandler=(e)=>{
       e.preventDefault();
         console.log(name, email, message);
+        toast.success('Meassage sent successfully');
    }
   return (
     <div id='contact'>

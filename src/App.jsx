@@ -7,6 +7,8 @@ import TimeLine from './componets/TimeLine';
 import Service from './componets/Service';
 import Testimonial from './componets/Testimonial';
 import Contact from './componets/Contact';
+import Footer from './componets/Footer';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
  
@@ -19,6 +21,9 @@ function App() {
 <Service/>
 <Testimonial/>
 <Contact/>
+<Footer/>
+<Toaster/>
+
 </>
   );
 }
