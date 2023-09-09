@@ -13,8 +13,8 @@ const Footer = () => {
         <h2> Social Media</h2>
         <article>
             <a href="https://www.youtube.com/@techriseworld2266" target='blank'><AiFillYoutube/></a>
-            <a href="" target='blank'><AiFillGithub/></a>
-            <a href="https://www.youtube.com/@techriseworld2266" target='blank'><AiFillLinkedin/></a>
+            <a href="https://github.com/afroj07" target='blank'><AiFillGithub/></a>
+            <a href="https://www.linkedin.com/in/afroj-mansoori-025882204/" target='blank'><AiFillLinkedin/></a>
 
         </article>
      </aside>
