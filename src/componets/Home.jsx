@@ -8,14 +8,14 @@ const Home = () => {
 
 const clientCount = useRef(null);
 const animationClintCount = ()=>{
-  animate(0,100, {
+  animate(0,50, {
     duration:1,
     onUpdate:(v)=>(clientCount.current.textContent=v.toFixed()),
   })
 }
 const projectCount = useRef(null);
 const animationprojectCount = ()=>{
-  animate(0,50, {
+  animate(0,25, {
     duration:1,
     onUpdate:(v)=>(projectCount.current.textContent=v.toFixed()),
   })
